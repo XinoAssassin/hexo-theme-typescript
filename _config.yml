@@ -1,7 +1,7 @@
 # Meta
 description: A minimal hexo theme.
-keywords: hexo,theme,typescript,otakism,otaku
-site_desc: otaku keeps alive
+keywords: hexo,theme,typescript
+site_desc: Write Everything.
 
 # Navigation
 navigation:
@@ -36,7 +36,7 @@ search:
 # Miscellaneous
 google_analytics:
 favicon: /favicon.png
-author_url: http://rakugaki.me
+author_url: http://xinoassassin.com
 
 # Less
 less:
@@ -45,28 +45,11 @@ less:
 # use url, not username
 social:
 - slug: email
-  url: #mailto:i@artifact.me
+  url: mailto:phnjs211@gmail.com
 - slug: github
-  url: https://github.com/artchen
+  url: https://github.com/xinoassassin
 - slug: twitter
-  url: https://twitter.com/otakism
-- slug: rss
-	url: /atom.xml
-- slug: google
-  url: https://plus.google.com/+ArtChenOtakism/posts
-- slug: facebook
-  url: # https://www.facebook.com/zanchoret
-- slug: linkedin
-  url: # https://www.linkedin.com/in/buzun
+  url: https://twitter.com/xinoassassin
 - slug: sina-weibo
-  url: http://weibo.com/otakism/
-- slug: tumblr
-  url: # http://artchen.tumblr.com
-- slug: dribbble
-  url: # https://dribbble.com/artchen
-- slug: pinterest
-  url: # https://www.pinterest.com/otakism/
-- slug: instagram
-  url: # https://instagram.com/otakism/
-- slug: behance
-  url: # https://www.behance.net/artchen
+  url: http://weibo.com/XiDeAssassin
+
