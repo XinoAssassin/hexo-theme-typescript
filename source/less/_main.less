@@ -1,7 +1,7 @@
 #main {
 	position: relative;
 	width: 100%;
-	max-width: @on-phone;
+	max-width: @on-desktop;
 	margin: 0px auto;
 	padding: 0px 30px 20px 30px;
 	opacity: 0;
@@ -12,15 +12,15 @@
 		transform: translate3d(0px,0px,0px);
 		opacity: 1;
 	}
-	@media (max-width: @on-phone) {
+	@media (max-width: @on-desktop) {
 		padding: 0px 20px 20px 20px;
 	}
 	.post-list {
 		position: relative;
-		width: 760px;
+		width: 960px;
 		margin: 0px auto;
 		
-		@media (max-width: @on-phone) {
+		@media (max-width: @on-desktop) {
 			width: 100%;
 		}
 	}
@@ -41,7 +41,7 @@
 		background: white;
 		box-shadow: 0px 0px 3px rgba(0, 0, 0, 0.15);
 
-		@media (max-width: @on-phone) {
+		@media (max-width: @on-desktop) {
 			padding: 20px;
 		}
 		&.page {
@@ -63,7 +63,7 @@
 				text-align: left;
 				padding-left: 30px;
 				margin: 0;
-				@media (max-width: @on-phone) {
+				@media (max-width: @on-desktop) {
 					padding-left: 20px;
 				}
 			}
@@ -81,7 +81,7 @@
 			margin-bottom: 30px;
 			transition: all 0.24s ease;
 			
-			@media (max-width: @on-phone) {
+			@media (max-width: @on-desktop) {
 				padding: 20px;
 			}
 			.author-title,
@@ -110,7 +110,7 @@
 				a {
 					font-size: 1.25em;
 					
-					@media (max-width: @on-phone) {
+					@media (max-width: @on-desktop) {
 						font-size: 1.25em;
 						padding: 7px 20px;
 					}
@@ -155,7 +155,7 @@
 			font-size: 1.65em;
 			padding: 0px 20px;
 			
-			@media (max-width: @on-phone) {
+			@media (max-width: @on-desktop) {
 				font-size: 1em;
 			}
 			a {
