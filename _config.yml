@@ -52,4 +52,6 @@ social:
   url: https://twitter.com/xinoassassin
 - slug: sina-weibo
   url: http://weibo.com/XiDeAssassin
+- slug: rss
+  url: /atom.xml
 
