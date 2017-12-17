@@ -18,11 +18,18 @@
       title = 'Tag: ' + page.tag;
   %>
   <title><% if (title) { %><%= title %> | <% } %><%= config.title %></title>
+  <% if (config.author){ %>
+  <meta name="author" content="<%= config.author %>">
+  <% } %>
+  <% if (config.feed && config.feed.type == 'atom') { %>
+  <link rel="alternate" type="application/atom+xml" title="Atom 0.3" href="<%- config.feed.path %>">
+  <% } %>
   <meta name="description" content="<%- theme.description %>" />
+  <meta name="apple-mobile-web-app-status-bar-style" content="black"/>
   <meta name="keywords" content="<%- theme.keywords %>" />
   <meta name="HandheldFriendly" content="True" />
   <meta name="apple-mobile-web-app-capable" content="yes">
-  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=0">
   <%- open_graph({twitter_id: theme.twitter, google_plus: theme.google_plus, fb_admins: theme.fb_admins, fb_app_id: theme.fb_app_id}) %>
   <% if (theme.rss) { %>
     <link rel="alternative" href="<%- theme.rss %>" title="<%= config.title %>" type="application/atom+xml">
