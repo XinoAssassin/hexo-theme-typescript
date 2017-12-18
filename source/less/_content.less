@@ -1,6 +1,6 @@
 .content {
 	color: lighten(@black, 2%);
-  font-size: 16px;
+  font-size: 18px;
   font-family: @sans-serif-custom, @fallback-font-family;
   line-height: 1.75em;
   padding: 0px 30px;
@@ -81,12 +81,22 @@
     }
   }
   blockquote {
+    font-family: @serif-custom;
+    font-weight: 500;
     position: relative;
-    width: 100%;
+    width: 80%;
     margin: 20px 0px;
+    margin-left: 10%;
     padding: 0px 20px;
-    border-left: 4px solid @material-green;
+    border-left: 4px solid @material-blue-grey;
 
+    &:before {
+    content: "\201C";
+    color: black;
+    position: absolute;
+    left: -40px;
+    font-size: 24px;
+  }
     footer {
       strong {
         margin-right: 7px;
